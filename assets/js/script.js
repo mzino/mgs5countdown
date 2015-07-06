@@ -31,7 +31,7 @@ $(function(){
 				message += numberWithCommas(minutes+hours*60+days*24*60) + " <b>MINUTE</b>" + ( minutes==1 ? '':'<b>S</b>' ) + "<br />";
 				message += numberWithCommas(seconds+minutes*60+hours*60*60+days*24*60*60) + " <b>SECOND</b>" + ( seconds==1 ? '':'<b>S</b>' ) + "<br />";
 
-				message += "<br /><br />";
+				message += "<br />";
 
 				note.html(message);
 			}
@@ -57,7 +57,7 @@ $(function(){
 				message_c += numberWithCommas(minutes+hours*60+days*24*60) + " <b>MINUTE</b>" + ( minutes==1 ? '':'<b>S</b>' ) + "<br />";
 				message_c += numberWithCommas(seconds+minutes*60+hours*60*60+days*24*60*60) + " <b>SECOND</b>" + ( seconds==1 ? '':'<b>S</b>' ) + "<br />";
 
-				message_c += "<br /><br />";
+				message_c += "<br />";
 
 				note_c.html(message_c);
 			}

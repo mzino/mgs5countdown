@@ -20,11 +20,33 @@
         <title>METAL GEAR SOLID V: THE PHANTOM PAIN Steam release countdown</title>
     </head>
     <body>
+
+    <!--Facebook Javascript SDK begin-->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=424025034405022";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <!--Facebook Javascript SDK end-->
+
         <img src="assets/img/logo.png" alt="MGS V: The Phantom Pain Logo" />
         <h1 id="title">STEAM RELEASE IN:</h1>
 		<div id="countdown"></div>
 		<p id="note"></p>
-        <p class="links"><a href="http://store.steampowered.com/app/287700/" target="_blank"><b>STEAM</b> STORE PAGE</a></p>
+
+    <!-- SOCIAL BUTTONS begin -->
+        <div class="social">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-text="WE'RE ALMOST THERE #MGS5 #TPP #HYPE">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+        </div>
+        <div class="fb-like social" data-href="http://mgs5.hintclub.co/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+    <!-- SOCIAL BUTTONS end -->
+
+        <p class="links top"><a href="http://store.steampowered.com/app/287700/" target="_blank"><b>STEAM</b> STORE PAGE</a></p>
         <p id="console" class="links bottom"><a href="console"><b>COUNTDOWN</b> TO CONSOLE RELEASE</a></p>
         <footer>
             <div class="container">
@@ -33,6 +55,7 @@
             </div>
         </footer>
 
+    <!-- GOOGLE ANALYTICS begin -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -43,6 +66,7 @@
           ga('send', 'pageview');
 
         </script>
+    <!-- GOOGLE ANALYTICS end -->
 
 		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script src="assets/countdown/jquery.countdown.js"></script>

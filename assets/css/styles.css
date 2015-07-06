@@ -90,6 +90,9 @@ img {
 	margin: 20px 0;
 	font-size: 18px;
 }
+.top {
+	margin-top: 40px;
+}
 .bottom {
 	margin-bottom: 60px;
 }
@@ -104,7 +107,11 @@ h1 {
 	font-weight: normal;
 	letter-spacing: 8px;
 }
-
+.social {
+	margin: 3px auto;
+	display: block!important;
+	text-align: center;
+}
 /* ===============
 MOBILE OPTIMIZATION
 =============== */
