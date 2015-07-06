@@ -21,5 +21,11 @@ Clone in `/var/www/`, then rename folder to `html/`
 	</Directory>
 
 
+#### Enable mod_rewrite
+`sudo a2enmod rewrite`
+
+`sudo service apache2 restart`
+
+
 #### Edit .htaccess if needed
 `sudo nano /var/www/html/.htaccess`
