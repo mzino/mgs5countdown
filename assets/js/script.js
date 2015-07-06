@@ -27,9 +27,9 @@ $(function(){
 				var message = "";
 			
 				message += numberWithCommas(days) + " <b>DAY</b>" + ( days==1 ? '':'<b>S</b>' ) + "<br />";
-				message += numberWithCommas(hours+days*24) + " <b>HOUR</b>" + ( hours==1 ? '':'<b>S</b>' ) + "<br />";
-				message += numberWithCommas(minutes+hours*60+days*24*60) + " <b>MINUTE</b>" + ( minutes==1 ? '':'<b>S</b>' ) + "<br />";
-				message += numberWithCommas(seconds+minutes*60+hours*60*60+days*24*60*60) + " <b>SECOND</b>" + ( seconds==1 ? '':'<b>S</b>' ) + "<br />";
+				message += numberWithCommas(hours+days*24) + " <b>HOUR</b>" + ( hours+days*24==1 ? '':'<b>S</b>' ) + "<br />";
+				message += numberWithCommas(minutes+hours*60+days*24*60) + " <b>MINUTE</b>" + ( minutes+hours*60+days*24*60==1 ? '':'<b>S</b>' ) + "<br />";
+				message += numberWithCommas(seconds+minutes*60+hours*60*60+days*24*60*60) + " <b>SECOND</b>" + ( seconds+minutes*60+hours*60*60+days*24*60*60==1 ? '':'<b>S</b>' ) + "<br />";
 
 				message += "<br />";
 
