@@ -81,3 +81,16 @@
 .countDiv:after{
 	top:0.9em;
 }
+
+@media (max-width: 450px) {
+	.countdownHolder {
+		width: 100%;
+		font: 32px/1.2 'Lato',sans-serif;
+	}
+	.position {
+		width: 0.85em;
+	}
+	.digit {
+		width: 0.85em;
+	}
+}
