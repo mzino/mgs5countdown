@@ -11,3 +11,6 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 # Remove index.html from URL
 RewriteRule ^index\.html$ / [R=301,L]
+
+# Redirect old /steam to home
+Redirect 301 /steam /
