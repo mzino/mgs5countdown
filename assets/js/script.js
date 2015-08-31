@@ -7,7 +7,7 @@ $(function(){
 	var note = $('#note'),
 		note_c = $('#note_c')
 		ts = new Date(2015, 9, 6, 0, 0, 0, 0),
-		tsconsole = new Date(2015, 8, 1, 0, 0, 0, 0),
+		tsconsole = new Date(2015, 8, 1, 6, 0, 0, 0),
 		before = true;
 		console = true;
 
